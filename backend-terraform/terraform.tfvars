@@ -1,0 +1,5 @@
+region = "us-east-2"
+bucket_name = "production-terraform-state456"
+bucket_versioning = "Enabled"
+dynamodb_table_name = "production-terraform-state-lock"
+hash_key = "LockID"
